@@ -20,19 +20,19 @@ const Admin = () => {
           value1={activeList}
           onChangeButtons={(i) => setActiveForm(i)}
           onChangeLists={(l) => setActiveList(l)}
-        />
-        {activeFrom ? (
+        />{activeFrom ? (
           <AdminForm />
         ) : (
           <div className="user-container">
             <h4>Пользователи</h4>
             <div className="user-container__users">
-              <Users value={activeList} lnum={(l) => setActiveList(l)} />
+              <Users value={activeList}/>
               <Users />
               <Users />
             </div>
           </div>
         )}
+        {activeList === 2 ? <CategoryReport/> : <Users />}
       </div>
     </div>
   );
