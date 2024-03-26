@@ -1,0 +1,39 @@
+.root-users {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.user {
+  display: flex;
+  justify-content: space-between;
+  &__logo {
+    margin-right: 20px;
+  }
+}
+
+.user input {
+  width: 70px;
+  height: 20px;
+  margin-right: 20px;
+  border: 0;
+  &:last-child {
+    margin-right: 0px;
+  }
+  &:nth-child(3) {
+    font-weight: 700;
+    font-size: 24px;
+    width: 100px;
+  }
+}
+
+.user button {
+  border: 0;
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+  &:last-child {
+    margin-right: 0px;
+  }
+}

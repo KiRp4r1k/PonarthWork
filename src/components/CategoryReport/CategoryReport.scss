@@ -1,0 +1,25 @@
+.root-category {
+  width: 100%;
+}
+
+.category {
+  display: flex;
+  justify-content: center;
+  &__items {
+    font-size: 12px;
+    margin-right: 15px;
+    &:last-of-type {
+      margin-right: 0px;
+    }
+    a {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      img {
+        width: 48px;
+        height: 48px;
+      }
+    }
+  }
+}

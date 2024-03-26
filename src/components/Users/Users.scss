@@ -1,0 +1,41 @@
+.root-users, .root-limos {
+  display: grid;
+  grid-template-columns: 34px auto auto 50px;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  &:not(:first-child, :last-child) {
+    border-top: 1px solid #e5e5ea;
+    border-bottom: 1px solid #e5e5ea;
+
+  }
+  .name {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    .topics {
+      font-size: 14px;
+      opacity: 0.5;
+    }
+  }
+}
+
+.moneys {
+  display: flex;
+  font-size: 20px;
+  font-weight: 500;
+  justify-content: center;
+}
+
+.user_image{
+  width: 24px;
+  height: 24px;
+  background: #000;
+  border-radius: 50%;
+}
+
+.pencil, .trash {
+  width: 20px;
+  height: 20px;
+  justify-self: end;
+}

@@ -1,0 +1,88 @@
+.buttons_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.first_column .second_column {
+    display: block;
+}
+
+.first_column {
+    padding-right: 30px;
+}
+
+.active_long_btn {
+    cursor: pointer;
+    width: 128px;
+    height: 42px;
+    border: 1px solid #231c16;
+    box-sizing: border-box;
+    border-radius: 32px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "DM Sans";
+    font-weight: 500;
+    line-height: 22px;
+    outline: none;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 6px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.long_button {
+    cursor: pointer;
+    width: 128px;
+    height: 42px;
+    border: 1px solid #231c16;
+    box-sizing: border-box;
+    border-radius: 32px;
+    background-color: #ffffff;
+    color: #231c16;
+    font-size: 16px;
+    font-family: "DM Sans";
+    font-weight: 500;
+    line-height: 22px;
+    outline: none;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 6px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.active_short_btn {
+    cursor: pointer;
+    width: 79px;
+    height: 42px;
+    border: 1px solid #231c16;
+    box-sizing: border-box;
+    border-radius: 32px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "DM Sans";
+    font-weight: 500;
+    line-height: 22px;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.short_button {
+    cursor: pointer;
+    width: 79px;
+    height: 42px;
+    border: 1px solid #231c16;
+    box-sizing: border-box;
+    border-radius: 32px;
+    background-color: #ffffff;
+    color: #231c16;
+    font-size: 16px;
+    font-family: "DM Sans";
+    font-weight: 500;
+    line-height: 22px;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}

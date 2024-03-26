@@ -1,0 +1,38 @@
+.switch_button {
+  background-color: #030303;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.button, .active_btn {
+  top: 326px;
+  left: 183px;
+  width: 169px;
+  height: 42px;
+  background-color: #000000;
+  border-radius: 8px;
+  border: 1px solid #030303;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+
+.active_btn {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.switch_list {
+  margin:10px 15px 0px 15px ;
+  height: 30px;
+}
+
+.list {
+  color: grey;
+  padding:5px 10px 5px 10px ;
+  background-color:#ffffff;
+  border: none;
+}
+.list.active {
+  color: #000000;
+}
